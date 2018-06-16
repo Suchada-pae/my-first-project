@@ -1,0 +1,665 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+
+/*---------------------------------------------------Color---------------------*/
+
+
+.bg-color-menuitem {
+    background: #80b3ff;
+}
+
+.bg-color-thescript,
+.danny-content,
+.mark-content,
+.glen-content,
+.bg-color-back-to-top,
+.section-heading {
+    background-color: #08151F;
+}
+
+.bg-color-nav {
+    background-color: #0B3177;
+}
+
+
+
+
+/* -----------------------------------------------Special----------------------*/
+
+
+h1 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.sub-heading-singles {
+    color: #ffffff;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: "Exo", sans-serif;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.uppercase {
+     text-transform: uppercase;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+
+.bg-color-back-to-top .nav-bar {
+    float: right;
+    margin-right: 40px;
+    font-family: "Exo", sans-serif;
+    letter-spacing: 1.5px;
+    font-size: 13px;
+}
+
+
+
+
+
+
+/* -----------------------------------------------Heading----------------------*/
+
+
+header {
+    margin: 0;
+}
+
+
+.logo {
+    background: url("../images/album1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    transition: all .5s ease-in-out;
+    -moz-o-transition: all .5s ease-in-out;
+    -webkit-o-transition: all .5s ease-in-out;
+}
+
+
+
+
+
+/* -----------------------------------------------Section----------------------*/
+
+
+/*----------------home page---------------*/
+
+
+#nav {
+    margin: 0;
+}
+
+#nav li {
+    padding: 0;
+}
+
+
+.menuitem {
+    height: 50px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #3AACD1;
+    height: 50px;
+    font-size: 17px;
+    font-weight: 400;
+    padding-top: 10px;
+    letter-spacing: 1.5px; 
+}
+    
+.sub-heading {
+    font-family: "Exo", sans-serif;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.inline-block img {
+    float: left;
+    width: 200px;
+    height: 250px;
+    margin-right: 30px;
+}
+
+.phase-line {
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #9999ff;
+}
+
+.heading-content {
+        margin-top: 10px;
+        margin-left: 30px;
+        margin-right: 70px;
+        padding-right: 80px;
+        display: block;
+        text-align: left;
+        font-size: 14px;
+        letter-spacing: 1px;
+        color: #ffffff;
+}
+
+.fa {
+    padding-right: 15px;
+}
+    
+
+
+/*----------------music page---------------*/
+
+.section-heading {
+    background-color: #08151F;
+}
+.songs {
+    margin: auto;
+    padding-left: 30px;
+    background-color: #08151F;
+}
+
+
+/*----------------news/event page---------------*/
+
+.news-event {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    color:#0000ff;
+}
+
+.table-condensed {
+    border-style: solid;
+    border-color:  #ff0000;
+    border-width: 2px;
+    width: 60%;
+    margin: auto;
+}
+
+th {
+    text-align: left;
+    padding: 10px;
+    width: 200;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+td {
+    letter-spacing: 1px;
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.bg-news-section-2 img {
+   margin-left: 50px;
+   margin-bottom: 30px;
+}
+
+.news-list a {
+    color: #ffffff;
+    line-height: 2.0;
+    padding-left: 30px;
+}
+
+.event-news,
+.event-news-2,
+.event-news-3,
+.event-news-4 {
+    background-color: #08151F;
+}
+
+button {
+   display: block;
+   margin-right: 30px;
+}
+
+
+
+/*----------------about page---------------*/
+
+
+.about-image {
+   width: 300px;
+   min-height: 300px;
+   margin-right: 50px;
+}
+
+
+img .about-image-3 {
+    margin-right: 50px;
+}
+
+.mark-content {
+    margin: auto;
+}
+
+.about-content,
+.about-content-2,
+.about-content-3 {
+    padding-left: 40px;
+    padding-right: 50px;
+    margin-bottom: 50px;
+    line-height: 2.0;
+    letter-spacing: 1px;
+    color: #ffffff;
+}
+
+.about-content .inline-block-about {
+    margin-left: 30px;
+    margin-right: 20px;
+}
+.about-content-2 .inline-block-about {
+    margin-left: 30px;
+    margin-right: 20px;
+}
+.about-content-3 .inline-block-about {
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+h3 {
+    text-align: center;
+}
+
+/*-------------------------hovering and animation-----------------------------*/
+
+/*-----------navigation bar-------------*/
+
+.hvr-fade:hover {
+    background-color: #00124d;
+    height: 50px;
+}
+
+/*----------------footer---------------*/
+
+.right-menu .privacy-policy:hover {
+    color: #337ab7;
+}
+
+/*----------------blog page-------------*/
+
+ul .news-freedom:hover {
+    color: #337ab7;
+}
+
+.news-list a:hover {
+    color: #337ab7;
+}
+
+
+/*--------animation in the blog page------*/
+
+h2 {
+  overflow: hidden;
+  text-align: center;
+}
+
+
+h2:before,
+h2:after {
+  background-color: #000099;
+  content: "";
+  display: inline-block;
+  height: 10px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+  -webkit-animation-name: headline; 
+  -o-animation-name: headline;
+  -webkit-animation-duration: 1s;
+  -o-animation-duration: 1s;
+  animation-name: headline;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  
+}
+
+
+h2:before {
+  right: 0.7em;
+  margin-left: -50%;
+}
+
+
+h2:after {
+  left: 0.7em;
+  margin-right: -50%;
+}
+
+
+
+/* ----------------------------------------------Footer----------------------*/
+
+
+footer {
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 70px;
+    padding-top: 15px;
+    padding-left: 25px;
+    padding-bottom: 15px;
+}
+
+.term-of-service {
+    padding-right: 13px;
+}
+
+
+.privacy-policy {
+    color: #ffffff;
+    margin: 10px;
+    padding: 0;
+}
+
+.copy-all-music {
+    font-family: "Exo", sans-serif;
+    font-size: 11px;
+    margin-top: 7px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    float: left;
+}
+
+.general-sub {
+    font-family: "Exo", sans-serif;
+    margin-top: 7px;
+    margin-right: 0;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    float: left;
+}
+
+.footer-details .fa {
+    float: right;
+}
+
+/*-----------------------------------media------------------------------------*/
+
+@media(min-width: 1200px) {
+    
+    .col-md-12 {
+        width: 100%;
+    }
+    
+    /*----home page----*/
+    
+    .bg-color-menuitem {
+        padding-left: 100px;
+    }
+    
+    .heading-content .home-image {
+        width: 300px;
+        height: 300px;
+        margin-bottom: 20px;
+        margin-right: 30px;
+    }
+    
+    .inline-block {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding-right: 70px;
+        padding-left: 30px;
+        display: inline-block;
+        text-align: left;
+        font-size: 14px;
+        letter-spacing: 1px;
+        color: #ffffff;
+    }
+    
+    
+    /*----music page----*/
+    
+    .menu-songs iframe {
+        width: 516px;
+        height: 315px;
+        margin: 50px;
+        background-color: #0B3177;
+        display: inline-block;
+       
+    }
+    
+    .bg-singles {
+        width: 100%;
+        background-color: #0B3177;
+    }
+    
+    
+ 
+     /*----blog page----*/
+    
+    table {
+        margin-left: 300px;
+        margin-top: 30px;
+    }
+    
+    .bg-news-section-2 {
+        margin-top: 30px;
+        margin-left: 100px;
+        padding-left: 100px;
+    }
+    
+    .news-list {
+        text-align: left;
+        padding-top: 50px;
+        padding-left: 70px;
+        letter-spacing: 1px;
+    }
+    
+    .news-freedom {
+        color: #4d4dff;
+        line-height: 2.0;
+        padding-left: 80px;
+    }
+    
+    .news-image-2 {
+        margin-bottom: 70px;
+        margin-left: 30px;
+        float: left;
+    }
+    
+    
+    /*----about page----*/    
+    
+    .about-content {
+        border: 10px solid transparent;
+        box-sizing: content-box;
+        padding: 30px;
+        margin-bottom: 50px;
+        margin: 40px;
+        margin-left: 100px;
+        border-image-repeat: round;
+        border-image: url("../images/border.png") 45;
+        -webkit-border-image: url("../images/border.png") 45; 
+        -o-border-image: url("../images/border.png") 45;
+        -moz-border-image: url("../images/border.png") 45;
+        border-image-outset: 10px 10px;
+        width: 1000px;
+        height: 400px;
+    }
+    
+    .about-content-2 {
+        border: 10px solid transparent;
+        border-spacing: 50px;
+        box-sizing: content-box;
+        padding: 30px;
+        padding-bottom: 50px;
+        margin-left: 200px;
+        margin-top: 70px;
+        border-image-repeat: round;
+        border-image: url("../images/border.png") 45;
+        -webkit-border-image: url("../images/border.png") 45; 
+        -o-border-image: url("../images/border.png") 45;
+        -moz-border-image: url("../images/border.png") 45;
+        border-image-outset: 10px 10px;
+        width: 1000px;
+        height: 370px;
+    }
+    
+    .about-content-3 {
+        border: 10px solid transparent;
+        box-sizing: content-box;
+        padding: 30px;
+        margin-bottom: 100px;
+        margin: 70px;
+        margin-left: 50px;
+        border-image-repeat: round;
+        border-image: url("../images/border.png") 45;
+        -webkit-border-image: url("../images/border.png") 45; 
+        -o-border-image: url("../images/border.png") 45;
+        -moz-border-image: url("../images/border.png") 45;
+        border-image-outset: 10px 10px;
+        width: 1000px;
+        height: 320px;
+    }
+    
+    .donoghue-content,
+    .mark-content,
+    .glen-content {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    
+    .about-image {
+        float: left;
+    }
+    
+    .about-image-3 {
+        float: left;
+        margin-right: 30px;
+    }
+    
+    .about-image-2 {
+        float: right;
+        margin-left: 30px;
+    }
+    
+    /*----Footer----*/ 
+    
+    .right-menu {
+        font-size: 12px;
+        font-family: "Exo", sans-serif;
+        margin-top: 10px;
+    }
+    
+    .right-menu span {
+        font-size: 13px;
+        color: #ffffff;
+        margin-right: 13px;
+        margin-left: 13px;
+        padding-right: 10px;
+        border-right: 3px solid #ffffff;
+    }
+    
+    .right-menu p {
+        font-size: 13px;
+        margin-right: 13px;
+        margin-left: 13px;
+        padding-right: 10px;
+    }
+    
+    .footer-symbol i {
+        margin: 10px;
+        margin-right: 20px;
+    }
+    
+    .footer-details span:hover {
+        color: #337ab7;
+    }
+}
+
+
+@media(min-width: 679px) and (max-width: 1119px) {
+    
+    .col-sm-12 {
+        width: 100%;
+    }
+    
+    /*----about----*/ 
+
+    p .inline-block-about {
+        text-align: justify;
+        
+    }
+    
+    .about-content img {
+        float: left;
+        margin-right: 30px;
+    }
+    
+    .about-content-2 img {
+       float: right;
+       margin-left: 30px;
+    }
+    
+    .about-content-3 img {
+        float: left;
+        margin-right: 30px;
+    }
+    
+    /*----music----*/ 
+    
+    .songs iframe {
+        padding: 50px;
+    }
+    
+    /*----blog----*/ 
+    
+    .bg-news-section-2 img {
+        float: left;
+    }
+    
+    /*----footer----*/ 
+    
+     .right-menu {
+        font-size: 13px;
+        margin-top: 18px;
+        font-family: "Exo", sans-serif;
+        text-align: center;
+    }
+    
+    .right-menu a {
+        font-size: 11px;
+        padding-left: 10px;
+    }
+    
+    .privacy-policy span {
+        margin-left: 10px;
+    }
+    
+    .right-menu .copy-all-music {
+        margin-left: 3px;
+    }
+    
+    .footer-symbol i {
+       float: right;
+       padding-top: 20px;
+       padding-right: 30px;
+    }
+}
+
+@media(max-width: 678px) {
+    
+    .col-xs-12 {
+        width: 100%;
+    }
+    
+    /*----footer----*/ 
+    .right-menu span {
+        font-size: 11px;
+        text-align: center;
+    }
+}
+
