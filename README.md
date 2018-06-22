@@ -205,7 +205,7 @@ And these codes on css:
                     <p class="copy-all-music">©2018 All musics- All Rights Reserved</p>
                 </div>
 
-    And these codes on css: 
+    - And these codes on css: 
 
         footer {
             background-color: #525252;
@@ -243,6 +243,13 @@ And these codes on css:
             text-transform: capitalize;
             float: left;
         }
+        
+   - added this code to change the color on a link of privacy policy on the left-hand side of the footer:
+
+        .right-menu .privacy-policy:hover {
+            color: #337ab7;
+        }
+
         
         
     - Symbols of social medias (Facebook, Twitter and Instagram) at the right hand side:

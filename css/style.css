@@ -3,19 +3,18 @@
 
 /*---------------------------------------------------Color---------------------*/
 
-
-.bg-color-menuitem {
-    background: #80b3ff;
-}
-
 .bg-color-thescript,
 .danny-content,
 .mark-content,
 .glen-content,
 .bg-color-back-to-top,
+.bg-color-drop-me,
+.bg-color-form,
 .section-heading {
     background-color: #08151F;
 }
+
+/*------navigation bar-------*/
 
 .bg-color-nav {
     background-color: #0B3177;
@@ -54,6 +53,7 @@ h1 {
     float: right;
     margin-right: 40px;
     font-family: "Exo", sans-serif;
+    text-decoration: none;
     letter-spacing: 1.5px;
     font-size: 13px;
 }
@@ -212,6 +212,7 @@ td {
     color: #ffffff;
     line-height: 2.0;
     padding-left: 30px;
+    text-decoration: none;
 }
 
 .event-news,
@@ -394,6 +395,13 @@ footer {
         width: 100%;
     }
     
+    
+    #nav {
+        margin: 0;
+        padding-left: 130px;
+    }
+    
+    
     /*----home page----*/
     
     .bg-color-menuitem {
@@ -546,6 +554,23 @@ footer {
         margin-left: 30px;
     }
     
+     /*----blog page----*/
+    
+    .form-group .form-control {
+        width: 50%;
+        margin: auto;
+    }
+    
+    .btn-success {
+        margin-left: 365px;
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    
+    .sub-heading-email {
+        margin-bottom: 50px;
+    }
+    
     /*----Footer----*/ 
     
     .right-menu {
@@ -587,6 +612,11 @@ footer {
         width: 100%;
     }
     
+    .bg-color-nav ul {
+        padding-left: 100px;
+    }
+    
+    
     /*----about----*/ 
 
     p .inline-block-about {
@@ -620,6 +650,29 @@ footer {
     .bg-news-section-2 img {
         float: left;
     }
+    
+    /*----contact----*/ 
+     
+    .sub-heading-email {
+        margin-bottom: 50px;
+    }
+    
+    .form-group .form-control {
+        width: 50%;
+        margin: auto;
+    }
+    
+    .button {
+        margin-left: 180px;
+    }
+    
+    .bg-color-form .btn {
+        display: inline-block;
+        padding-left: 50px;
+        padding-right: 50px;
+        margin-left: 100px;
+    }
+    
     
     /*----footer----*/ 
     
