@@ -360,8 +360,9 @@ footer {
 
 /*----------------footer---------------*/
 
-.right-menu .privacy-policy:hover {
-    color: #337ab7;
+
+.footer-symbol i:hover {
+    color: #007ee5;
 }
 
 /*----------------blog page-------------*/
