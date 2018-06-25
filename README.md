@@ -4,12 +4,14 @@
 
 
 
-Built this website for audiences of the Script. The Script is the famous Irish rock band which has followers on social media nearly 10 millions.
+Built this website for audiences of the Script. The Script is the famous Irish rock band which has followers on
+social media nearly 10 millions.
 This website is alternative option for the audiences who admire and would like to stay in touch with the band. 
 
 # Motivation
 
-Created the website to allow all fans following movements of the Irish rock band, such as news, concerts tour and the popular singles etc.
+Created the website to allow all fans following movements of the Irish rock band, such as news, concerts tour 
+and the popular singles etc.
 And the website also have the brif history of The Script for the new followers. 
 
 # Usage
@@ -20,11 +22,13 @@ The website contains:
 
     - The Home page provides a short story for The Script.
     - The Music page provides the most 10 popular songs of The Script from the first album til now.
-    - The Event page provides the schedule of The Script concerts tour which let users accessing the official website for purchasing tickets.
+    - The Event page provides the schedule of The Script concerts tour, which let users accessing the official
+      website for purchasing tickets.
     - The About page provides the biography of each The Script member.
     - The Contact page provides an email for leaving a comment. 
     
-    As mentioned earlier, this is not an official website of The Script. Therefore, some pages on this website hold external resources which could be changed at any time.
+    As mentioned earlier, this is not an official website of The Script. 
+    Therefore, some pages on this website hold external resources which could be changed at any time.
   
 # Built with
 
