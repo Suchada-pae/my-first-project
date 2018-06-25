@@ -12,7 +12,7 @@ This website is alternative option for the audiences who admire and would like t
 
 Created the website to allow all fans following movements of the Irish rock band, such as news, concerts tour 
 and the popular singles etc.
-And the website also have the brif history of The Script for the new followers. 
+And the website also has the brif history of The Script for the new followers. 
 
 # Usage
 
