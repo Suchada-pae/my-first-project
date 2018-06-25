@@ -26,15 +26,15 @@ The website contains:
   
 # Built with
 
-[Cloud 9](https://www.aws.amazon.com/cloud9/?origin=c9io)
-[Adobe XD](https://www.adobe.com/products/xd.html)
+- [Cloud 9](https://www.aws.amazon.com/cloud9/?origin=c9io)
+- [Adobe XD](https://www.adobe.com/products/xd.html)
     
     
 # Credits and Related links
 
-[Ticketmaster](https://www.ticketmaster.ie)
-[The Script Official](https://www.thescriptmusic.com)
-[Youtube](https://www.youtube.com)
+- [Ticketmaster](https://www.ticketmaster.ie)
+- [The Script Official](https://www.thescriptmusic.com)
+- [Youtube](https://www.youtube.com)
     
 
 
