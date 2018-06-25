@@ -1,6 +1,7 @@
 # Keep in touch with The Script 
 
-![Uploading Screen Shot 2018-06-25 at 13.14.58.png…]
+<img width="361" alt="screen shot 2018-06-25 at 13 11 25" src="https://user-images.githubusercontent.com/37799063/41863892-0ba7c084-78a0-11e8-8176-21347f5b106c.png">
+
 
 
 Built this website for audiences of the Script. The Script is the famous Irish rock band which has followers on social media nearly 10 millions.
