@@ -1,6 +1,6 @@
 # Keep in touch with The Script 
 
-<img src="Screen.png"> [alt="The Script"]
+<img src="screen.png"> [alt="The Script"]
 
 Built this website for audiences of the Script. The Script is the famous Irish rock band which has followers on social media nearly 10 millions.
 This website is alternative option for the audiences who admire and would like to stay in touch with the band. 
@@ -34,6 +34,7 @@ The website contains:
     - [Ticketmaster](https://www.ticketmaster.ie/)
     - [The Script Official](http://www.thescriptmusic.com/)
     - [Youtube](https://www.youtube.com/)
+
 
 # License
 
