@@ -1,6 +1,7 @@
 # Keep in touch with The Script 
 
-[alt="The Script"]<img src="../images/screen.png"> 
+![Uploading Screen Shot 2018-06-25 at 13.14.58.png…]
+
 
 Built this website for audiences of the Script. The Script is the famous Irish rock band which has followers on social media nearly 10 millions.
 This website is alternative option for the audiences who admire and would like to stay in touch with the band. 
