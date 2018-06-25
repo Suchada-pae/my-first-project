@@ -2,12 +2,13 @@
 
 <img src="Screen.png"> [alt="The Script"]
 
-Built this website for audiences of the Script. The Script is the famous Irish rock band which has followers on social media nearly 10 million followers.
+Built this website for audiences of the Script. The Script is the famous Irish rock band which has followers on social media nearly 10 millions.
 This website is alternative option for the audiences who admire and would like to stay in touch with the band. 
 
 # Motivation
 
-Created the website to allow audiences following movements of the Irish rock band, such as news, concerts tour and the popular singles etc.
+Created the website to allow all fans following movements of the Irish rock band, such as news, concerts tour and the popular singles etc.
+And the website also have the brif history of The Script for the new followers. 
 
 # Usage
 
