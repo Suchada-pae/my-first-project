@@ -53,10 +53,11 @@ When you go to my website, what you are going to see:
     
    #### - Logo
    
-   You can see a picture of the latest album of the Script "Freedom Child" that I chose to add on at the top of
-the website page in a header area as a logo of the website page. I chose this picture because I realize that when the fans
-of the Script see this website, they would know right away that this is the Script's website. To make this appear on 
-the screen, I used this code on html:
+You can see a picture of the latest album of the Script "Freedom Child" in which I added it on at the top of
+the website page in the header area as a logo. I chose this picture because I realize that when the fans
+of the Script see this picture, they would know right away that this website belongs to the Script, Irish rock band.
+
+- To make this appear on the screen; I used this code on html:
 
         <header class="contain-fluid">
             <div class="row">
@@ -64,31 +65,33 @@ the screen, I used this code on html:
             </div>
         </header>
 
-And these codes running on css:
+- These codes running on css to control the position and size of the image:
 
-    header {
-     margin: 0;
-    }
+        header {
+            margin: 0;
+        }
     
-    .logo {
-        background: url("../images/album1.jpg");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 100%;
-        min-height: 400px;
-        transition: all .5s ease-in-out;
-        -moz-o-transition: all .5s ease-in-out;
-        -webkit-o-transition: all .5s ease-in-out;
-    }
+        .logo {
+            background: url("../images/album1.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+            min-height: 400px;
+            transition: all .5s ease-in-out;
+            -moz-o-transition: all .5s ease-in-out;
+            -webkit-o-transition: all .5s ease-in-out;
+        }
       
     
   #### - A navigation menu
         
-        I divided my website into 5 categories which is comprised of home, music, event, about and contact pages. 
-For the details of each page I will explain later. As you can see on the website, the color of the
+I divided my website into 5 categories which is comprised of home, music, event, about and contact pages. 
+For more details of each page, I will explain later. As you can see on the website, the color of the
 nav bar that I picked is blue color(#3AACD1). The reason for my chosen color for the nav bar is I would like to make 
-the color of each part on the website has the same tone of color which match with the logo picture. So to make the nav menu, I used these codes on html:
+the color of each part on the website has the same tone of color which match with the logo picture.
+
+-To make the nav menu, I used these codes on html:
 
             <!--navigation menu-->
                 <div class="row bg-color-nav">
@@ -111,46 +114,48 @@ the color of each part on the website has the same tone of color which match wit
                     </ul>
                 </div>
                 
-And these codes running on css: 
+- These codes running on css: 
 
-    #nav {
-        margin: 0;
-    }
+         #nav {
+            margin: 0;
+        }
 
-    #nav li {
-        padding: 0;
-    }
+        #nav li {
+            padding: 0;
+        }
 
 
-    .menuitem {
-        height: 50px;
-        text-align: center;
-        padding: 0;
-    }
+        .menuitem {
+            height: 50px;
+            text-align: center;
+            padding: 0;
+        }
 
-    .menuitem a {
-        width: 100%;
-        text-decoration: none;
-        color: #3AACD1;
-        height: 50px;
-        font-size: 17px;
-        font-weight: 400;
-        padding-top: 10px;
-    }
+        .menuitem a {
+            width: 100%;
+            text-decoration: none;
+            color: #3AACD1;
+            height: 50px;
+            font-size: 17px;
+            font-weight: 400;
+            padding-top: 10px;
+        }
 
-    .hvr-fade:hover {
-        background-color: #00124d;
-        height: 50px;
-    }
+        .hvr-fade:hover {
+            background-color: #00124d;
+            height: 50px;
+        }
 
 
    ### 1.2 Section area on Home page:
 
-   #### - A heading "THE SCRIPT"
+   #### - A heading on the section area "THE SCRIPT"
         
-   I used "THE SCRIPT" as a heading on Homepage because this would be easier to start with the Script story which 
-would be helpful for the new followers who do not know the band and would like to know who they are and what they do. 
-To make the heading appeared on my site; I used these codes running on HTML:
+I used "THE SCRIPT" as a heading on the section area on Homepage because I thought this would be easier to start with
+the Script story which might be helpful for the new followers who do not know about the band and would like to know
+more about who they are and what they do. 
+
+- To make the heading appearing on my site; I used these codes running on HTML:
             
             <!--content-->
                 <div class="row bg-color-thescript">
@@ -159,8 +164,8 @@ To make the heading appeared on my site; I used these codes running on HTML:
                     </div>
                     
                     
-And to make the heading "THE SCRIPT" appear on the screen with uppercase,and font with "Exo", san-serif; I used these 
-codes running on css: 
+- To make the heading "THE SCRIPT" appearing on the screen with uppercase and font with "Exo" sans-serif, I used these 
+codes running on CSS: 
 
             h1 {
                 margin-top: 30px;
@@ -181,7 +186,13 @@ codes running on css:
 
             
             
-   #### - The brief story of the Script appear on my site; I used these codes running on HTML:
+   #### - The story of the Script on the section area on Home page:
+   
+I mentioned the story of the Script on the home page because it is a good place to tell the story to both new and regular
+followers to know how the band has the significant success in music industry. 
+
+   
+- I used these codes running on HTML:
     
     
           <div class="col-xs-12 col-sm-12 col-md-12 heading-content">
@@ -219,7 +230,7 @@ codes running on css:
          </div>
 
 
-And these codes running on css: 
+- These codes running on css: 
 
    - Used these codes to set an image at the left hand site beside the story of the Script:
 
@@ -243,7 +254,7 @@ And these codes running on css:
                 letter-spacing: 1px;
             }
             
-   - Added this code to set blue color on some words in the texts:
+   - Added this code to set the blue color to emphasize some words in the texts:
    
             .phase-line {
                 font-size: 14px;
@@ -253,11 +264,11 @@ And these codes running on css:
 
    #### - A link "back to top" used to go back to the top of the page
     
-   I created the link "back to top" on each page because some pages provide loads of information which would make the length
+I created the link "back to top" on each page because some pages provide loads of information which would make the length
 of the page a bit longer than users expect. Therefore, I thought that without the link "back to top" might let the users
 use a scrolling bar too much, and this might be able to lead the users having a bad experience of accessing the website.
    
-   These codes running on html:
+- These codes running on html:
     
          <!--back to top-->
                 <div class="row bg-color-back-to-top">
@@ -267,8 +278,8 @@ use a scrolling bar too much, and this might be able to lead the users having a 
                 </div>
             </div>
 
-   t
-  These codes running on css:
+   
+ - These codes running on css:
   
    - To control size and font of the link "back to top":
         
@@ -289,76 +300,97 @@ use a scrolling bar too much, and this might be able to lead the users having a 
             
             
             
-### 1.3 A footer:
+### 1.3 A footer on Home page:
 
   #### - Privacy Policy & ©2018 All musics- All Rights Reserved:
+  
+  I added Privacy Policy because I thought this policy is very important for the web developers to protect their work
+  and also to protect users' right in which allow them to know about the website, such as what the web is, 
+  who wrote and the risks of browsing the web and so on. And inside of the privacy policy link, I also wrote policy
+  information for all users.
+  
+  
+- These codes running on html:
     
-        <footer class="contain-fluid">
+         <footer class="contain-fluid">
             <div class="row footer-details">
                 <!--copyrights-->
                 <div class="col-xs-6 col-sm-6 col-md-6 right-menu">
-                    <a class="privacy-policy color" href="images/p2.pdf" target="_blak")><span class="uppercase general-sub">Privacy Policy</span></a>
+                    <a class="privacy-policy color" href="images/p2.pdf" target="_blak")>
+                    <span class="uppercase general-sub">Privacy Policy</span></a>
                     <p class="copy-all-music">©2018 All musics- All Rights Reserved</p>
                 </div>
 
-  - And these codes on css: 
 
-        footer {
-            background-color: #525252;
-            color: #fafafa;
-            min-height: 70px;
-            padding-top: 15px;
-            padding-left: 25px;
-            padding-bottom: 15px;
-        }
+- These codes running on css: 
 
-        .term-of-service {
-            padding-right: 13px;
-        }
+    - These codes used to set up background color of the footer with the gray color(#525252). I picked this color because 
+    I always see the majority of the websites have the gray color on a footer area, which this can be considered as a
+    unique color for the footer area.
+    
+    
+            footer {
+                background-color: #525252;
+                color: #fafafa;
+                min-height: 70px;
+                padding-top: 15px;
+                padding-left: 25px;
+                padding-bottom: 15px;
+            }
 
-        .privacy-policy {
-            color: #ffffff;
-            margin: 10px;
-            padding: 0;
-        }
+            .term-of-service {
+                padding-right: 13px;
+            }
 
-        .copy-all-music {
-            font-family: "Exo", sans-serif;
-            font-size: 11px;
-            margin-top: 7px;
-            letter-spacing: 1px;
-            text-transform: capitalize;
-            float: left;
-        }
+            .privacy-policy {
+                color: #ffffff;
+                margin: 10px;
+                padding: 0;
+            }
 
-        .general-sub {
-            font-family: "Exo", sans-serif;
-            margin-top: 7px;
-            margin-right: 0;
-            letter-spacing: 1px;
-            text-transform: capitalize;
-            float: left;
-        }
+            .copy-all-music {
+                font-family: "Exo", sans-serif;
+                font-size: 11px;
+                margin-top: 7px;
+                letter-spacing: 1px;
+                text-transform: capitalize;
+                float: left;
+            }
+
+            .general-sub {
+                font-family: "Exo", sans-serif;
+                margin-top: 7px;
+                margin-right: 0;
+                letter-spacing: 1px;
+                text-transform: capitalize;
+                float: left;
+            }
+            
         
-   - Added this code to change the color on a link of privacy policy on the left-hand side of the footer:
+   - Added this code to change the color on the link of privacy policy on the left-hand side of the footer area:
 
-         .right-menu .privacy-policy:hover {
-            color: #337ab7;
-         }
+            .right-menu .privacy-policy:hover {
+                color: #337ab7;
+            }
 
         
         
    #### - Symbols of social medias (Facebook, Twitter and Instagram) at the right hand side:
     
-            html
+   - These codes running on html:
             
             <div class="col-xs-6 col-sm-6 col-md-6 footer-symbol">
-                    <a target="_blank" href="https://www.facebook.com/thescript/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                    <a target="_blank" href="https://www.instagram.com/thescriptofficial/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                    <a target="_blank" href="https://twitter.com/thescript"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                </div>
+                    <a target="_blank" href="https://www.facebook.com/thescript/">
+                        <i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a target="_blank" href="https://www.instagram.com/thescriptofficial/">
+                        <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    <a target="_blank" href="https://twitter.com/thescript">
+                        <i class="fa fa-twitter" aria-hidden="true"></i></a>
+            </div>
     
-            css
+  - These codes running on css:
+  
+   - To control the position of social media links:
             
             .footer-details .fa {
                 float: right;
@@ -368,24 +400,33 @@ use a scrolling bar too much, and this might be able to lead the users having a 
                 margin: 10px;
                 margin-right: 20px;
             }
+            
+            .fa {
+                padding-right: 15px;
+            }
+            
+   - Added this code to change the color on the link of social media links:        
     
             .footer-details span:hover {
                 color: #ccff33;
             }
             
-            .fa {
-                padding-right: 15px;
-            }
+            
 
 
-Second page of my website is music page which contains top 10 singles:
-
-1. At the top of music page is the same as the home page which has the logo and the nav menu, You can see all the codes that present at the home page. 
+## 2. Music page which contains top 10 singles:
 
 
-2. Section of music page contains the 10 Youtube videos of the Script:
+For logo, nav bar and footer, they used the same codes as mentioned on the Home page. 
 
-        html codes of heading "THE TOP 10 SINGLES:
+
+### 2.1 The section area of Music page contains:
+
+#### - A heading "THE TOP 10 SINGLES"
+
+
+- Html codes of heading "THE TOP 10 SINGLES:
+
              <!--heading-->
                 <div class="row bg-singles">
                     <div class="col-xs-12 col-md-12 section-heading">
@@ -393,7 +434,8 @@ Second page of my website is music page which contains top 10 singles:
                     </div>        
                 </div>    
         
-        css codes of heading "THE TOP 10 SINGLES:
+        
+ - Css codes of heading "THE TOP 10 SINGLES:
         
             .section-heading {
                 background-color: #000000;
