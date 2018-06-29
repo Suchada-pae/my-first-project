@@ -84,7 +84,7 @@ of the Script see this picture, they would know right away that this website bel
         }
       
     
-  #### - A navigation menu
+#### - A navigation menu
         
 I divided my website into 5 categories which is comprised of home, music, event, about and contact pages. 
 For more details of each page, I will explain later. As you can see on the website, the color of the
@@ -147,9 +147,9 @@ the color of each part on the website has the same tone of color which match wit
         }
 
 
-   ### 1.2 Section area on Home page:
+### 1.2 Section area on Home page:
 
-   #### - A heading on the section area "THE SCRIPT"
+#### - A heading on the section area "THE SCRIPT"
         
 I used "THE SCRIPT" as a heading on the section area on Homepage because I thought this would be easier to start with
 the Script story which might be helpful for the new followers who do not know about the band and would like to know
@@ -186,7 +186,7 @@ codes running on CSS:
 
             
             
-   #### - The story of the Script on the section area on Home page:
+#### - The story of the Script on the section area on Home page:
    
 I mentioned the story of the Script on the home page because it is a good place to tell the story to both new and regular
 followers to know how the band has the significant success in music industry. 
@@ -262,7 +262,7 @@ followers to know how the band has the significant success in music industry.
                 color: #9999ff;
             }
 
-   #### - A link "back to top" used to go back to the top of the page
+#### - A link "back to top" used to go back to the top of the page
     
 I created the link "back to top" on each page because some pages provide loads of information which would make the length
 of the page a bit longer than users expect. Therefore, I thought that without the link "back to top" might let the users
@@ -302,12 +302,12 @@ use a scrolling bar too much, and this might be able to lead the users having a 
             
 ### 1.3 A footer on Home page:
 
-  #### - Privacy Policy & ©2018 All musics- All Rights Reserved:
+#### - Privacy Policy & ©2018 All musics- All Rights Reserved:
   
-  I added Privacy Policy because I thought this policy is very important for the web developers to protect their work
-  and also to protect users' right in which allow them to know about the website, such as what the web is, 
-  who wrote and the risks of browsing the web and so on. And inside of the privacy policy link, I also wrote policy
-  information for all users.
+I added Privacy Policy because I thought this policy is very important for the web developers to protect their work
+and also to protect users' right in which allow them to know about the website, such as what the web is, 
+who wrote and the risks of browsing the web and so on. And inside of the privacy policy link, I also wrote policy
+information for all users.
   
   
 - These codes running on html:
@@ -375,7 +375,7 @@ use a scrolling bar too much, and this might be able to lead the users having a 
 
         
         
-   #### - Symbols of social medias (Facebook, Twitter and Instagram) at the right hand side:
+ #### - Symbols of social medias (Facebook, Twitter and Instagram) at the right hand side:
     
    - These codes running on html:
             
@@ -390,7 +390,7 @@ use a scrolling bar too much, and this might be able to lead the users having a 
     
   - These codes running on css:
   
-   - To control the position of social media links:
+    - To control the position of social media links:
             
             .footer-details .fa {
                 float: right;
@@ -414,18 +414,22 @@ use a scrolling bar too much, and this might be able to lead the users having a 
             
 
 
-## 2. Music page which contains top 10 singles:
+## 2. Music page which contains:
 
 
-For logo, nav bar and footer, they used the same codes as mentioned on the Home page. 
+For logo, nav bar, link "back to top" and footer, they used the same codes as mentioned on the Home page. 
 
 
 ### 2.1 The section area of Music page contains:
 
 #### - A heading "THE TOP 10 SINGLES"
 
+I used "THE TOP 10 SINGLES" as a heading on Music page because I would like to add the most popular songs of the Script,
+which are the official videos, according to the numbers of viewing the videos from users and the comments that
+have been written on subscribe on Youtube website. 
 
-- Html codes of heading "THE TOP 10 SINGLES:
+
+- HTML codes of heading "THE TOP 10 SINGLES":
 
              <!--heading-->
                 <div class="row bg-singles">
@@ -435,7 +439,7 @@ For logo, nav bar and footer, they used the same codes as mentioned on the Home 
                 </div>    
         
         
- - Css codes of heading "THE TOP 10 SINGLES:
+ - CSS codes of heading "THE TOP 10 SINGLES:
         
             .section-heading {
                 background-color: #000000;
@@ -459,47 +463,60 @@ For logo, nav bar and footer, they used the same codes as mentioned on the Home 
             }
 
         
-   html codes of the list of "THE TOP 10 SINGLES: 
+  #### - 10 Youtube videos 
+  
+  
+  - HTML codes of the list of "THE TOP 10 SINGLES: 
         
         
             <!--top 10 songs-->
                 <div class="row col-md-12 songs">
                     <div class="section-sub-heading">
                         <div class="col-xs-12 col-sm-6 col-md-6 menu-songs">
-                            <iframe src="https://www.youtube.com/embed/gS9o1FAszdk" controls frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                            <iframe src="https://www.youtube.com/embed/gS9o1FAszdk" controls frameborder="0" 
+                            allow="autoplay; encrypted-media" allowfullscreen></iframe>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-6 menu-songs">
-                            <iframe src="https://www.youtube.com/embed/vOKOamXsXYE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>                       
+                            <iframe src="https://www.youtube.com/embed/vOKOamXsXYE" frameborder="0" 
+                            allow="autoplay; encrypted-media" allowfullscreen></iframe>                       
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-6 menu-songs">
-                             <iframe src="https://www.youtube.com/embed/CPEBN2dVNUY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                             <iframe src="https://www.youtube.com/embed/CPEBN2dVNUY" frameborder="0" 
+                             allow="autoplay; encrypted-media" allowfullscreen></iframe>
                         </div>        
                         <div class="col-xs-12 col-sm-6 col-md-6 menu-songs">
-                            <iframe src="https://www.youtube.com/embed/SGlkwKA-t_4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                            <iframe src="https://www.youtube.com/embed/SGlkwKA-t_4" frameborder="0" 
+                            allow="autoplay; encrypted-media" allowfullscreen></iframe>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-6 menu-songs">
-                            <iframe src="https://www.youtube.com/embed/KMihKmoYfe8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                            <iframe src="https://www.youtube.com/embed/KMihKmoYfe8" frameborder="0" 
+                            allow="autoplay; encrypted-media" allowfullscreen></iframe>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-6 menu-songs">
-                            <iframe src="https://www.youtube.com/embed/QV62YRpIeUA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                            <iframe src="https://www.youtube.com/embed/QV62YRpIeUA" frameborder="0" 
+                            allow="autoplay; encrypted-media" allowfullscreen></iframe>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-6 menu-songs">
-                            <iframe src="https://www.youtube.com/embed/-iA-MHxa8C8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                            <iframe src="https://www.youtube.com/embed/-iA-MHxa8C8" frameborder="0" 
+                            allow="autoplay; encrypted-media" allowfullscreen></iframe>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-6 menu-songs">
-                            <iframe src="https://www.youtube.com/embed/WIm1GgfRz6M" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                            <iframe src="https://www.youtube.com/embed/WIm1GgfRz6M" frameborder="0" 
+                            allow="autoplay; encrypted-media" allowfullscreen></iframe>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-6 menu-songs">
-                            <iframe src="https://www.youtube.com/embed/ho9xM9n2USA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                            <iframe src="https://www.youtube.com/embed/ho9xM9n2USA" frameborder="0" 
+                            allow="autoplay; encrypted-media" allowfullscreen></iframe>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-6 menu-songs">
-                            <iframe src="https://www.youtube.com/embed/mk48xRzuNvA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                            <iframe src="https://www.youtube.com/embed/mk48xRzuNvA" frameborder="0" 
+                            allow="autoplay; encrypted-media" allowfullscreen></iframe>
                         </div>
                     </div>   
                 </div>
         
         
-        css codes of the list of "THE TOP 10 SINGLES:
+- CSS codes of the list of "THE TOP 10 SINGLES:
         
         
             .songs {
@@ -508,8 +525,6 @@ For logo, nav bar and footer, they used the same codes as mentioned on the Home 
                 background-color:#08151F;
             }
 
-        
-        
          @media(min-width: 1200px)
              .menu-songs iframe {
                 width: 516px;
@@ -530,30 +545,30 @@ For logo, nav bar and footer, they used the same codes as mentioned on the Home 
             .songs iframe {
                 padding: 50px;
             }
-    
-3. A link of back to the top
-4. A footer
 
 
+## 3. Event page which contains:
 
-Third page is Blog:
-
-1. At the top of music page is the same as the home page which has the logo and the nav menu, You can see all the codes that present at the home page. 
+For logo, nav bar, link "back to top" and footer, they used the same codes as mentioned on the Home page. 
 
 
-2. the Section of Blog page contains:
+#### - A heading "Event"
 
-    - A heading "BLOG":
-    
-        html:
-        <!--blog-->
+Used the "Event" as a heading on Event page, the reason is that I wanted the page holding the information
+about concerts tour where the fans can go through the ticket links to purchase the tickets, and the page also 
+provides some news of the Script for the past two years.
+
+- HTML codes:
+
+            <!--blog-->
                 <div class="row event-news">
                     <div class="col-xs-12 col-md-12 bg-heading-news">
                         <h1 class="uppercase sub-heading">Blog</h1>
                     </div> 
                 </div> 
         
-        css:        
+- CSS codes:        
+     
         .sub-heading {
             font-family: "Exo", sans-serif;
             text-align: center;
@@ -562,15 +577,21 @@ Third page is Blog:
             color: #ffffff;
         }
         
-    - A sub-heading "Tour":
+
+##### - A sub-heading "Tour":
     
-        html:
-        <!--tour-->
+- HTML codes:
+            
+            <!--tour-->
                 <div class="row event-news-2">
                     <div class="col-md-12 bg-news">
                         <h2 class="news-event">Tour</h2>
-                        
-        css:
+                    </div>
+                </div>
+                
+                
+- CSS codes:
+
         .news-event {
             margin-top: 50px;
             margin-bottom: 50px;
@@ -578,9 +599,16 @@ Third page is Blog:
             color:#0000ff;
         }
     
-    - Two flashlights between the sub-heading (Tour):
+
+##### - Two blue lines between the sub-heading (Tour):
     
-        only on css:
+
+I build the two lines between the sub-heading "Tour" because I wanted to separate the two areas between the list
+of concerts tour and the Script's news from each other. Because this would make page neat and legible. 
+    
+  - only on css:
+  
+ 
         h2 {
             overflow: hidden;
             text-align: center;
@@ -603,6 +631,7 @@ Third page is Blog:
             animation-name: headline;
             animation-duration: 1s;
             animation-iteration-count: infinite;
+  
         }
 
 
@@ -617,10 +646,14 @@ Third page is Blog:
             margin-right: -50%;
         }
         
-    - A table of ticket tours:
-    
-                        html:
-                            <table style="width:100%">
+        
+##### - A table of ticket tours:
+   
+Created a table to contain the informaiton of the Script's concern tour which is hold days, places and ticket links. 
+
+- HTML codes:
+                           
+                          <table style="width:100%">
                                 <table class="table table-condensed">
                                     <tr>
                                         <th>Date</th>
@@ -685,7 +718,11 @@ Third page is Blog:
                             </table> 
                             
                             
-                        css:
+- CSS codes to set up the position, font-size, and color of the letter:
+ 
+ I set the position of the news on the left side of the image just to make the content in the news area look nicely. 
+ The font is white to contrast dark blue background color.
+
                         th {
                             text-align: left;
                             padding: 10px;
@@ -710,22 +747,23 @@ Third page is Blog:
                             margin: auto;
                             }
                             
-        - Ticket buttons in the table:
+                        
+##### - Ticket buttons in the table:
                 
-
-   html:        
+- HTML codes:        
                                                                 
-    <button type="button" class="btn btn-warning">Ticket</button>
+     <button type="button" class="btn btn-warning">Ticket</button>
         
                             
-    css:
+ - CSS codes:
         button {
             display: block;
             margin-right: 30px;
          }
 
                         
-    - A heading "NEWS":
+                  
+##### - A heading "NEWS":
     
         html:
             <!--news-->
