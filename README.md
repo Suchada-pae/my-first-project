@@ -720,8 +720,8 @@ Created a table to contain the informaiton of the Script's concern tour which is
                             
 - CSS codes to set up the position, font-size, and color of the letter:
  
- I set the position of the news on the left side of the image just to make the content in the news area look nicely. 
- The font is white to contrast dark blue background color.
+ I set a position of the news on the left side of the image just to make the content look nicely. The font is white to
+ contrast dark blue background color.
 
                         th {
                             text-align: left;
@@ -749,6 +749,9 @@ Created a table to contain the informaiton of the Script's concern tour which is
                             
                         
 ##### - Ticket buttons in the table:
+
+These buttons would be helpful for all users to purchase the tickets if they want. And the buttons with the orange color 
+could be seen easily when it is on dark background color.
                 
 - HTML codes:        
                                                                 
@@ -764,6 +767,8 @@ Created a table to contain the informaiton of the Script's concern tour which is
                         
                   
 ##### - A heading "NEWS":
+
+
     
         html:
             <!--news-->
