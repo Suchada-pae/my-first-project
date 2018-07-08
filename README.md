@@ -750,27 +750,31 @@ Created a table to contain the informaiton of the Script's concern tour which is
                         
 ##### - Ticket buttons in the table:
 
-These buttons would be helpful for all users to purchase the tickets if they want. And the buttons with the orange color 
-could be seen easily when it is on dark background color.
+These buttons would be helpful for all users to purchase the The Script's tickets if they want. And the buttons with the 
+orange color could be seen easily when it is on dark background color.
                 
 - HTML codes:        
                                                                 
-     <button type="button" class="btn btn-warning">Ticket</button>
+        <button type="button" class="btn btn-warning">Ticket</button>
         
                             
  - CSS codes:
-        button {
-            display: block;
-            margin-right: 30px;
-         }
+ 
+            button {
+                display: block;
+                margin-right: 30px;
+            }
 
                         
                   
 ##### - A heading "NEWS":
 
+I chose a sub-heading "News" on Event page because I want to some news that is related to The Script. Some would be the
+latest one and some would be from last year which was still relavent to the latest album of The Script.
 
     
-        html:
+ HTML:
+   
             <!--news-->
                     <div class="row event-news-3">
                         <div class="col-xs-12 col-md-12 bg-news">
@@ -778,7 +782,7 @@ could be seen easily when it is on dark background color.
                         </div>
                     </div>
                     
-        css:
+ CSS:
         
         .sub-heading {
             font-family: "Exo", sans-serif;
@@ -787,23 +791,35 @@ could be seen easily when it is on dark background color.
             font-weight: 300;
             color: #ffffff;
         }
+        
+        
     
-    - The list of the Script news:
+##### - The list of the Script news:
+
+This part is all about The Script news. As mentioned above, some news are the latest and some would be from last year. 
+However, 
     
-        html:
-        <div class="row event-news-4">
+ HTML:
+ 
+                    <div class="row event-news-4">
                         <div class="col-md-12 bg-news-section-2">
-                            <img src="https://s1.ticketm.net/img/tat/dam/a/91f/dc2396de-dfc4-47f6-bf9d-d11876c1691f_516261_CUSTOM.jpg" class="news-image-2"></img>
-                            <div class="news-list">
-                              <a href="https://www.rte.ie/entertainment/music-reviews/2017/0901/901498-the-script-freedom-child" target="_blank" class="news-freedom"/>News of Freedom Child album</a></p>
-                              <a href="https://www.bbc.co.uk/programmes/p05pl98z" target="_blank" class="news-freedom"/>The Script performed live on BBC Radio 2 Room</a></p>
-                              <a href="https://twitter.com/thescript" target="_blank" class="news-freedom"/>News of the Script on Twitter</a></p>
-                              <a href="https://twitter.com/thescript/status/1002241934134530053" target="_blank" class="news-freedom"/>The Script Summer Tour</a></p>
+                            <img src="https://s1.ticketm.net/img/tat/dam/a/91f/dc2396de-dfc4-47f6-bf9d-
+                                d11876c1691f_516261_CUSTOM.jpg" class="news-image-2"></img>
+                                <div class="news-list">
+                                    <a href="https://www.rte.ie/entertainment/music-reviews/2017/0901/901498-the-script-
+                                    freedom-child" target="_blank" class="news-freedom"/>News of Freedom Child album</a></p>
+                                    <a href="https://www.bbc.co.uk/programmes/p05pl98z" target="_blank" class="news-
+                                    freedom"/>The Script performed live on BBC Radio 2 Room</a></p>
+                                    <a href="https://twitter.com/thescript" target="_blank" class="news-freedom"/>News
+                                    of the Script on Twitter</a></p>
+                                    <a href="https://twitter.com/thescript/status/1002241934134530053" target="_blank" 
+                                    class="news-freedom"/>The Script Summer Tour</a></p>
                             </div>
                         </div>
                     </div>
                     
-        css:
+  css:
+  
         .news-list a {
             color: #ffffff;
             line-height: 2.0;
@@ -816,6 +832,7 @@ could be seen easily when it is on dark background color.
         .event-news-4 {
              background-color: #08151F;
         }
+        
         
     - A picture of the Script on the left hand side:
         
