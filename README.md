@@ -769,8 +769,8 @@ orange color could be seen easily when it is on dark background color.
                   
 ##### - A heading "NEWS":
 
-I chose a sub-heading "News" on Event page because I want to some news that is related to The Script. Some would be the
-latest one and some would be from last year which was still relavent to the latest album of The Script.
+I chose a sub-heading "News" on Event page because this part contains some news that is related to The Script. 
+Although some is the old news, it is still relavent to the latest album of The Script.
 
     
  HTML:
@@ -796,8 +796,8 @@ latest one and some would be from last year which was still relavent to the late
     
 ##### - The list of the Script news:
 
-This part is all about The Script news. As mentioned above, some news are the latest and some would be from last year. 
-However, 
+This part is about The Script news. As mentioned above, some news are the latest and some was from last year. 
+However, the content is still interesting for all the users.
     
  HTML:
  
@@ -834,33 +834,34 @@ However,
         }
         
         
-    - A picture of the Script on the left hand side:
-        
-   html:
-        <img src="https://s1.ticketm.net/img/tat/dam/a/91f/dc2396de-dfc4-47f6-bf9d-d11876c1691f_516261_CUSTOM.jpg" class="news-image-2"></img>
+##### - A picture of the Script on the left hand side:
 
-   css:
+I added this picture beside the list of the news just to make it looke nice and more detailed on this part.
+        
+   HTML:
+        
+        <img src="https://s1.ticketm.net/img/tat/dam/a/91f/dc2396de-dfc4-47f6-bf9d-d11876c1691f_516261_CUSTOM.jpg"
+         class="news-image-2"></img>
+
+   CSS:
     
     .bg-news-section-2 img {
         margin-left: 50px;
         margin-bottom: 30px;
     }    
-        
-3. A link of back to the top
-4. A footer
+       
 
 
-The last page of my site is About:
+## 4. The last page of my site is About:
 
-1. Logo
-2. Navigation menu
 
-3. The section of the biography of the Script:
+ The section of the biography of the Script:
 
     - A heading "BIOGRAPHY OF THE SCRIPT":
     
         html:
-        <!--about-content menu-->
+        
+              <!--about-content menu-->
                 <div class="row bg-color-thescript">
                     <div class="col-xs-12 col-sm-12 col-md-12">
                         <h1 class="uppercase sub-heading">Biography of the Script</h1>
@@ -868,13 +869,14 @@ The last page of my site is About:
                 </div>
 
         css:
-        .sub-heading {
-            font-family: "Exo", sans-serif;
-            text-align: center;
-            font-size: 50px;
-            font-weight: 300;
-            color: #ffffff;
-        }
+        
+            .sub-heading {
+                font-family: "Exo", sans-serif;
+                text-align: center;
+                font-size: 50px;
+                font-weight: 300;
+                color: #ffffff;
+            }
 
     - biography of Danny with a border:
     
