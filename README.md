@@ -87,7 +87,7 @@ of the Script see this picture, they would know right away that this website bel
 #### - A navigation menu
         
 I divided my website into 5 categories which is comprised of home, music, event, about and contact pages. 
-For more details of each page, I will explain later. As you can see on the website, the color of the
+For more details of each page, I will explain in chronological orders later. As you can see on the website, the color of the
 nav bar that I picked is blue color(#3AACD1). The reason for my chosen color for the nav bar is I would like to make 
 the color of each part on the website has the same tone of color which match with the logo picture.
 
@@ -649,7 +649,8 @@ of concerts tour and the Script's news from each other. Because this would make 
         
 ##### - A table of ticket tours:
    
-Created a table to contain the informaiton of the Script's concern tour which is hold days, places and ticket links. 
+Created a table to contain the informaiton of the Script's concern tour which is comprise of exact days, places and countries
+where it takes place, and external links for purchasing tickets. 
 
 - HTML codes:
                            
@@ -720,8 +721,8 @@ Created a table to contain the informaiton of the Script's concern tour which is
                             
 - CSS codes to set up the position, font-size, and color of the letter:
  
- I set a position of the news on the left side of the image just to make the content look nicely. The font is white to
- contrast dark blue background color.
+ I set a position of the news on my right-hand side of because I wanted all the content look tiny and nice. The 
+ color of the font is white to contrast a background of dark blue color.
 
                         th {
                             text-align: left;
@@ -751,7 +752,7 @@ Created a table to contain the informaiton of the Script's concern tour which is
 ##### - Ticket buttons in the table:
 
 These buttons would be helpful for all users to purchase the The Script's tickets if they want. And the buttons with the 
-orange color could be seen easily when it is on dark background color.
+orange color could be seen easily when it is on the dark background color.
                 
 - HTML codes:        
                                                                 
@@ -769,11 +770,10 @@ orange color could be seen easily when it is on dark background color.
                   
 ##### - A heading "NEWS":
 
-I chose a sub-heading "News" on Event page because this part contains some news that is related to The Script. 
-Although some is the old news, it is still relavent to the latest album of The Script.
+I chose a sub-heading "News" on Event page because this part contains some news of The Script. Although some is the old news,
+it is still relavent to the latest album of The Script.
 
-    
- HTML:
+- HTML:
    
             <!--news-->
                     <div class="row event-news-3">
@@ -782,7 +782,7 @@ Although some is the old news, it is still relavent to the latest album of The S
                         </div>
                     </div>
                     
- CSS:
+- CSS:
         
         .sub-heading {
             font-family: "Exo", sans-serif;
@@ -799,7 +799,7 @@ Although some is the old news, it is still relavent to the latest album of The S
 This part is about The Script news. As mentioned above, some news are the latest and some was from last year. 
 However, the content is still interesting for all the users.
     
- HTML:
+- HTML:
  
                     <div class="row event-news-4">
                         <div class="col-md-12 bg-news-section-2">
@@ -818,7 +818,7 @@ However, the content is still interesting for all the users.
                         </div>
                     </div>
                     
-  css:
+ - CSS:
   
         .news-list a {
             color: #ffffff;
@@ -838,12 +838,12 @@ However, the content is still interesting for all the users.
 
 I added this picture beside the list of the news just to make it looke nice and more detailed on this part.
         
-   HTML:
+- HTML:
         
         <img src="https://s1.ticketm.net/img/tat/dam/a/91f/dc2396de-dfc4-47f6-bf9d-d11876c1691f_516261_CUSTOM.jpg"
          class="news-image-2"></img>
 
-   CSS:
+- CSS:
     
     .bg-news-section-2 img {
         margin-left: 50px;
@@ -852,14 +852,17 @@ I added this picture beside the list of the news just to make it looke nice and 
        
 
 
-## 4. The last page of my site is About:
+## 4. The fouth page of my site is About which contains:
 
 
  The section of the biography of the Script:
+ 
 
-    - A heading "BIOGRAPHY OF THE SCRIPT":
+##### - A heading "BIOGRAPHY OF THE SCRIPT":
+
+I wrote this page because I thought that this could help new users get to the Script. 
     
-        html:
+- HTML:
         
               <!--about-content menu-->
                 <div class="row bg-color-thescript">
@@ -868,7 +871,7 @@ I added this picture beside the list of the news just to make it looke nice and 
                     </div>
                 </div>
 
-        css:
+- CSS:
         
             .sub-heading {
                 font-family: "Exo", sans-serif;
@@ -878,24 +881,33 @@ I added this picture beside the list of the news just to make it looke nice and 
                 color: #ffffff;
             }
 
-    - biography of Danny with a border:
+##### - biography of Danny with a border:
     
-    html:
+- HTML:
     
-    <!--danny-->
+            <!--danny-->
                 <div class="row danny-content">
                     <div class="col-xs-12 col-sm-12 col-md-12 about-content">
-                        <img src="https://i.pinimg.com/originals/94/9a/0f/949a0f52374c4921b060c11023f0bd36.jpg" class="about-image"></img>
-                            <a href="https://en.wikipedia.org/wiki/Danny_O%27Donoghue" target="_blank" class="donoghue-content"><h3>Danny O'Donoghue</h3></a>
-                                <p class="inline-block-about">Danny O'Donoghue is a Dubliner who was born in the family of whom father was a member of <span class="phase-line">The Dreams</span> Shay O'Donoghue, and mother Ailish O'Donoghue.
-                                Before he became a lead single in The Script, he used to form a band called  <span class="phase-line">Mytown</span> with his intimate friend, Mark Sheehan.  
-                                And they received the moderate success in their home country but later on; they decided  to work as producers in Los Angeles for a few years and went back to Dublin where recruited Glen Power as a drummer.
-                                The Script was formed in 2001 and released the first album called <span class="phase-line">"The Script"</span>. The debut album had the significant success in Ireland and went on to the UK and America.
+                        <img src="https://i.pinimg.com/originals/94/9a/0f/949a0f52374c4921b060c11023f0bd36.jpg" 
+                        class="about-image"></img>
+                            <a href="https://en.wikipedia.org/wiki/Danny_O%27Donoghue" target="_blank" 
+                            class="donoghue-content"><h3>Danny O'Donoghue</h3></a>
+                                <p class="inline-block-about">Danny O'Donoghue is a Dubliner who was born in
+                                the family of whom father was a member of <span class="phase-line">The Dreams</span>
+                                Shay O'Donoghue, and mother Ailish O'Donoghue.
+                                Before he became a lead single in The Script, he used to form a band called 
+                                <span class="phase-line">Mytown</span> with his intimate friend, Mark Sheehan.  
+                                And they received the moderate success in their home country but later on; they 
+                                decided  to work as producers in Los Angeles for a few years and went back to Dublin
+                                where recruited Glen Power as a drummer.
+                                The Script was formed in 2001 and released the first album called <span class="phase-
+                                line">"The Script"</span>. The debut album had the significant success in Ireland and
+                                went on to the UK and America.
                                 Since 2008, the script has released next four albums which have been sold worldwide.</p> 
                     </div>
                 </div>
                 
-    css:
+ - CSS:
     
         .about-image {
             width: 300px;
@@ -924,24 +936,31 @@ I added this picture beside the list of the news just to make it looke nice and 
         }
 
 
-    - biography of Mark with a border:
+##### - biography of Mark with a border:
 
 
- html:
-           <!--mark-->
-                <div class="row mark-content">
+- HTML:
+                 
+                 
+                <!--mark-->
+                    <div class="row mark-content">
                     <div class="col-xs-12 col-sm-12 col-md12 about-content-2">
                         <img src="http://images.gibson.com/Lifestyle/2013/mark-sheehan_1.jpg" class="about-image-2"></img>
-                            <a href="https://thescriptbible.wordpress.com/biography/mark-sheehan/" target="_blank" class="mark-content"><h3>Mark Sheehan</h3></a>
+                            <a href="https://thescriptbible.wordpress.com/biography/mark-sheehan/" target="_blank"
+                            class="mark-content"><h3>Mark Sheehan</h3></a>
                              <p class="inline-block-about">Mark Sheehan was born on 29 October 1981 in Mount Brown, Dublin. 
-                             His father named Marc Anthony Sheehan. Danny and  Mark have been friends since they were 12 years old. 
-                             He and Danny used to play music as a boyband <span class="phase-line">MyTown</span>. Not only, Danny, that worked in Los Angeles, but Mark also went there. 
+                             His father named Marc Anthony Sheehan. Danny and  Mark have been friends since they were 12
+                             years old. 
+                             He and Danny used to play music as a boyband <span class="phase-line">MyTown</span>. Not only,
+                             Danny, that worked in Los Angeles, but Mark also went there. 
                              When they moved back to Dublin, they formed <span class="phase-line">the Script</span> together. 
                              After that he married Rina Sheehan, and he has three children named Cameron, Avery, and Lil.</p> 
                     </div>         
                 </div>
                 
-css:
+- CSS:
+        
+        
         .about-content,
         .about-content-2,
         .about-content-3 {
@@ -959,22 +978,30 @@ css:
         }
         
         
-        - biography of Glen
+ ##### - biography of Glen
         
-    html:
-    <!--glen-->
+    
+- HTML:
+    
+                <!--glen-->
                 <div class="row glen-content">
                     <div class="col-xs-12 col-sm-12 col-md-12 about-content-3">
                         <img src="https://www.famousbirthdays.com/headshots/glen-power-3.jpg" class="about-image-3"></img>
-                            <a href="https://thescriptbible.wordpress.com/biography/glen-power/" target="_blank" class="glen-content"><h3>Glen Power</h3></a>
-                             <p class="inline-block-about">Glen Power is one of <span class="phase-line">the Script</span> members. He had started his career before he joined the Script. 
-                             His father was a singer, however; the most inspired person that made him interested in the music industry was his mother. 
-                             He and his other band members have achieved many awards, such as <span class="phase-line">the Best Album and Best Irish Band Award at the 2009 Meteor Ireland Music Awards</span>. 
+                            <a href="https://thescriptbible.wordpress.com/biography/glen-power/" target="_blank" 
+                            class="glen-content"><h3>Glen Power</h3></a>
+                             <p class="inline-block-about">Glen Power is one of <span class="phase-line">the Script</span>
+                             members. He had started his career before he joined the Script. 
+                             His father was a singer, however; the most inspired person that made him interested in
+                             the music industry was his mother. 
+                             He and his other band members have achieved many awards, such as <span class="phase-line">
+                             the Best Album and Best Irish Band Award at the 2009 Meteor Ireland Music Awards</span>. 
                              He has married and has a son named Luke.</p> 
                     </div>         
                 </div>
                 
-    css:
+ - CSS:
+ 
+ 
         .about-content,
         .about-content-2,
         .about-content-3 {
@@ -990,6 +1017,24 @@ css:
             margin-left: 30px;
             margin-right: 20px;
         }
+
+
+## 5. The last page of my site is contact which conta
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 - Hover
