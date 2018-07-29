@@ -860,7 +860,8 @@ I added this picture beside the list of the news just to make it looke nice and 
 
 ##### - A heading "BIOGRAPHY OF THE SCRIPT":
 
-I wrote this page because I thought that this could help new users get to the Script. 
+I wrote this page because I thought that this could help new users get to know how the band became the most famous 
+Irish band as The Script now.
     
 - HTML:
         
@@ -1019,78 +1020,114 @@ I wrote this page because I thought that this could help new users get to the Sc
         }
 
 
-## 5. The last page of my site is contact which conta
+## 5. The last page of my site is Contact which contains:
+
+This page was created for all the users to leave any question, comment and message to the band.
+
+##### - An email:
+
+The boxes of the email have the different size depending on the size of devices.
+
+##### - A button of the email:
+
+I chose a green button for sending the email because it is easy and the green color could make all the users feel free to 
+press it. 
+
+- HTML:
+            
+            
+            <form>
+                <div class="row bg-color-form">
+                    <div class="col-xs-12 col-sm-12 col-md-12 form-group">
+                        <input type="name" class="form-control" id="Name" placeholder="Name*">
+                    </div>
+                </div>
+                <div class="row bg-color-form">
+                    <div class="col-xs-12 col-sm-12 col-md-12 form-group">
+                        <input type="email" class="form-control" id="Email1" placeholder="Email*">
+                    </div>
+                </div>
+                <div class="row bg-color-form">
+                    <div class="col-xs-12 col-sm-12 col-md-12 form-group">
+                        <input type="text" class="form-control" id="Text" placeholder="Subject">
+                    </div>
+                </div>
+                <div class="row bg-color-form">
+                    <div class="col-xs-12 col-sm-12 col-md-12 form-group">
+                        <textarea class="form-control" rows="5" placeholder="Message"></textarea>
+                    </div>
+                </div>
+                <div class="row bg-color-form">
+                    <div class="col-xs-12 col-sm-12 col-md-6 button">
+                        <button type="button" class="btn btn-success">Send</button>
+                </div>
+            </form>   
+
+- CSS:
+
+        
+            .bg-color-form .form-group {
+                width: 80%;
+                margin-left: 50px;
+            }
+
+            .btn-success {
+                margin-left: 50px;
+            }
 
 
 
+#### - Hover
+
+            .hvr-fade:hover {
+                background-color: #00124d;
+                height: 50px;
+            }
+
+            .right-menu .privacy-policy:hover {
+                color: #337ab7;
+            }
+
+            ul .news-freedom:hover {
+                color: #337ab7;
+            }
+
+            .news-list a:hover {
+                color: #337ab7;
+            }
 
 
+#### - Color
+
+            .bg-color-menuitem {
+                background: #80b3ff;
+            }
+
+            .bg-color-thescript,
+            .danny-content,
+            .mark-content,
+            .glen-content,
+            .bg-color-back-to-top,
+            .section-heading {
+                background-color: #08151F;
+            }
+
+            .bg-color-nav {
+                background-color: #0B3177;
+            }
 
 
-
-
-
-
-
-
-
-
-
-
-- Hover
-
-
-/*-----------navigation bar-------------*/
-
-.hvr-fade:hover {
-    background-color: #00124d;
-    height: 50px;
-}
-
-/*----------------footer---------------*/
-
-.right-menu .privacy-policy:hover {
-    color: #337ab7;
-}
-
-/*----------------blog page-------------*/
-
-ul .news-freedom:hover {
-    color: #337ab7;
-}
-
-.news-list a:hover {
-    color: #337ab7;
-}
-
-
-- Color
-
-.bg-color-menuitem {
-    background: #80b3ff;
-}
-
-.bg-color-thescript,
-.danny-content,
-.mark-content,
-.glen-content,
-.bg-color-back-to-top,
-.section-heading {
-    background-color: #08151F;
-}
-
-.bg-color-nav {
-    background-color: #0B3177;
-}
-
-- These codes running on css to make the home page work on tablet and desktop screens:
+#### - These codes running on css to make the home page work on tablet and desktop screens:
 
 As you would see pixels of a desktop screen, I set 1200px instead of 992px. 
 The reason is that on About page I created a border covered a picture and texts of biography of each member of The Script. 
 At that time, when I checked the screen which is less than 1000px, the border of each bigraphy did not appear on the screen.
-On the other hand, the borders appeared on the big screen only; although I did try to change the size of the border but it still did not work either.
-If I wanted it worked, I had to reduce the size of the border a lot like 500px, which was too small and it did not look nice on both table and desktop.
+On the other hand, the borders appeared on the big screen only; although I did try to change the size of the border but it 
+still did not work either.
+If I wanted it worked, I had to reduce the size of the border a lot like 500px, which was too small and it did not look nice 
+on both table and desktop.
 Therefore, I chose the desktop screen(1200px) to have the borders instead of neither tablet nor mobile screens.
+
 
     @media(min-width: 1200px) {
     
@@ -1357,7 +1394,7 @@ Therefore, I chose the desktop screen(1200px) to have the borders instead of nei
 
 
 
-These codes that are from other websites which have been used on html for this project: 
+These codes are from other websites which have been used on html for this project: 
 
 1. Bootstrap
    Used this code to make a table on html  
@@ -1388,9 +1425,12 @@ These codes that are from other websites which have been used on html for this p
 
 
                 <div class="col-xs-6 col-sm-6 col-md-6 footer-symbol">
-                    <a target="_blank" href="https://www.facebook.com/thescript/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                    <a target="_blank" href="https://www.instagram.com/thescriptofficial/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                    <a target="_blank" href="https://twitter.com/thescript"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    <a target="_blank" href="https://www.facebook.com/thescript/">
+                    <i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a target="_blank" href="https://www.instagram.com/thescriptofficial/">
+                    <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    <a target="_blank" href="https://twitter.com/thescript">
+                    <i class="fa fa-twitter" aria-hidden="true"></i></a>
                 </div>
 
 
@@ -1401,58 +1441,60 @@ These codes are from other websites which have been used on css for this project
     - changed the value of box-sizing to be content-box
     - changed a picture of border on -webkit-border-image: url("../images/border.png"),
       -o-border-image: url("../images/border.png") and border-image: url("../images/border.png")
-    - swaped border-image: url("../images/border.png") to the top of -webkit- and -o- so that the code would work on Apple screens 
+    - swaped border-image: url("../images/border.png") to the top of -webkit- and -o- so that the code would 
+    work on Apple screens 
     -  added width: 1000px and height: 400px;
     -  added padding: 30px, margin-bottom: 50px, margin: 40px and margin-left: 100px
     
-.about-content {
-        border: 10px solid transparent;
-        box-sizing: content-box;
-        padding: 30px;
-        margin-bottom: 50px;
-        margin: 40px;
-        margin-left: 100px;
-        border-image: url("../images/border.png");
-        -webkit-border-image: url("../images/border.png"); 
-        -o-border-image: url("../images/border.png"); 
-        border-image-repeat: round;
-        border-image-outset: 10px 10px;
-        width: 1000px;
-        height: 400px;
-    }
+
+            .about-content {
+                border: 10px solid transparent;
+                box-sizing: content-box;
+                padding: 30px;
+                margin-bottom: 50px;
+                margin: 40px;
+                margin-left: 100px;
+                border-image: url("../images/border.png");
+                -webkit-border-image: url("../images/border.png"); 
+                -o-border-image: url("../images/border.png"); 
+                border-image-repeat: round;
+                border-image-outset: 10px 10px;
+                width: 1000px;
+                height: 400px;
+            }
     
-    .about-content-2 {
-        border: 10px solid transparent;
-        border-spacing: 50px;
-        box-sizing: content-box;
-        padding: 30px;
-        padding-bottom: 50px;
-        margin-left: 200px;
-        margin-top: 70px;
-        border-image: url("../images/border.png");
-        -webkit-border-image: url("../images/border.png"); 
-        -o-border-image: url("../images/border.png"); 
-        border-image: url("../images/border.png");
-        border-image-outset: 10px 10px;
-        width: 1000px;
-        height: 370px;
-    }
+            .about-content-2 {
+                border: 10px solid transparent;
+                border-spacing: 50px;
+                box-sizing: content-box;
+                padding: 30px;
+                padding-bottom: 50px;
+                margin-left: 200px;
+                margin-top: 70px;
+                border-image: url("../images/border.png");
+                -webkit-border-image: url("../images/border.png"); 
+                -o-border-image: url("../images/border.png"); 
+                border-image: url("../images/border.png");
+                border-image-outset: 10px 10px;
+                width: 1000px;
+                height: 370px;
+            }
     
-    .about-content-3 {
-        border: 10px solid transparent;
-        box-sizing: content-box;
-        padding: 30px;
-        margin-bottom: 100px;
-        margin: 70px;
-        margin-left: 50px;
-        border-image: url("../images/border.png");
-        -webkit-border-image: url("../images/border.png"); 
-        -o-border-image: url("../images/border.png"); 
-        border-image-repeat: round;
-        border-image-outset: 10px 10px;
-        width: 1000px;
-        height: 320px;
-    }
+            .about-content-3 {
+                border: 10px solid transparent;
+                box-sizing: content-box;
+                padding: 30px;
+                margin-bottom: 100px;
+                margin: 70px;
+                margin-left: 50px;
+                border-image: url("../images/border.png");
+                -webkit-border-image: url("../images/border.png"); 
+                -o-border-image: url("../images/border.png"); 
+                border-image-repeat: round;
+                border-image-outset: 10px 10px;
+                width: 1000px;
+                height: 320px;
+            }
 
 2. Used these codes to create a logo which is from the User-centric frontend development module which I changed:
     - changed background
@@ -1460,17 +1502,17 @@ These codes are from other websites which have been used on css for this project
     - added width: 100%
     - added min-height 
     
-.logo {
-    background: url("../images/album1.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    min-height: 400px;
-    transition: all .5s ease-in-out;
-    -moz-o-transition: all .5s ease-in-out;
-    -webkit-o-transition: all .5s ease-in-out;
-}
+            .logo {
+                background: url("../images/album1.jpg");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                width: 100%;
+                min-height: 400px;
+                transition: all .5s ease-in-out;
+                -moz-o-transition: all .5s ease-in-out;
+                -webkit-o-transition: all .5s ease-in-out;
+            }
 
 3. Used these animation codes to create flashlights on the Blog page which I changed:
     - changed background-color and @keyframes 
@@ -1479,61 +1521,64 @@ These codes are from other websites which have been used on css for this project
     - changed name of animation to headline
     - changed the duration of animation faster
     - changed animation-iteration-count to be infinite
-h2 {
-  overflow: hidden;
-  text-align: center;
-}
-h2:before,
-h2:after {
-  background-color: #000099;
-  content: "";
-  display: inline-block;
-  height: 10px;
-  position: relative;
-  vertical-align: middle;
-  width: 50%;
-  -webkit-animation-name: headline; 
-  -o-animation-name: headline;
-  -webkit-animation-duration: 1s;
-  -o-animation-duration: 1s;
-  animation-name: headline;
-  animation-duration: 1s;
-  animation-iteration-count: infinite;
+
+
+            h2 {
+                overflow: hidden;
+                text-align: center;
+            }
+            h2:before,
+            h2:after {
+                background-color: #000099;
+                content: "";
+                display: inline-block;
+                height: 10px;
+                position: relative;
+                vertical-align: middle;
+                width: 50%;
+                -webkit-animation-name: headline; 
+                -o-animation-name: headline;
+                -webkit-animation-duration: 1s;
+                -o-animation-duration: 1s;
+                animation-name: headline;
+                animation-duration: 1s;
+                animation-iteration-count: infinite;
   
-}
-@-webkit-keyframes headline {
-    from {
-        background-color: #000099;
+            }
+            @-webkit-keyframes headline {
+            from {
+                background-color: #000099;
         
-    }
-    to {
-        background-color: #ffff00;
+                }
+            to {
+                background-color: #ffff00;
         
-    }
-}
-@keyframes headline {
-    from {
-        background-color: #000099;
+                }
+            }
+            @keyframes headline {
+                from {
+                background-color: #000099;
         
-    }
-    to {
-        background-color: #ffff00;
+                }
+                to {
+                    background-color: #ffff00;
         
-    }
-}
-h2:before {
-  right: 0.7em;
-  margin-left: -50%;
-}
-h2:after {
-  left: 0.7em;
-  margin-right: -50%;
-}
+                }
+            }
+            h2:before {
+                right: 0.7em;
+                margin-left: -50%;
+            }
+            h2:after {
+            left: 0.7em;
+            margin-right: -50%;
+            }
    
 
-    For the rest I have written. As you can see on the html page, I still used some class names the same as shown on the materials.
-The reason is that it makes me remember what is all about, however; all the details inside I changed and added new values and new codes to create
-something that was suitable for my site.  
+    For the rest I have written. As you can see on the html page, I still used some class names the same as shown on
+    the materials.
+The reason is that it makes me remember what is all about, however; all the details inside I changed and added new 
+values and new codes to create something that was suitable for my site.  
 
   
 # Built with
