@@ -654,69 +654,69 @@ where it takes place, and external links for purchasing tickets.
 
 - HTML codes:
                            
-                          <table style="width:100%">
-                                <table class="table table-condensed">
-                                    <tr>
-                                        <th>Date</th>
-                                        <th>Place</th>
-                                        <th>Ticket</th>
-                                     </tr>
-                                    <tr>  
-                                        <td>June 7</td>
-                                        <td>Thetford forest, suffolk, UK</td>
-                                        <td><a href="http://www.thescriptmusic.com/home">
-                                            <button type="button" class="btn btn-warning">Ticket</button></a></td>
-                                    </tr>
-                                     <tr>
-                                        <td>June 9</td>
-                                        <td>Caribana Festival, Crans-Pres'-Celigny, Switzerland</td>
-                                        <td><a href="http://www.thescriptmusic.com/home">
-                                            <button type="button" class="btn btn-warning">Ticket</button></a></td>
-                                     </tr>
-                                     <tr>
-                                        <td>June 9</td>
-                                        <td>Caribana Festival, Crans-Pres'-Celigny, Switzerland</td>
-                                        <td><a href="http://www.thescriptmusic.com/home">
-                                            <button type="button" class="btn btn-warning">Ticket</button></a></td>
-                                     </tr>
-                                     <tr>
-                                        <td>June 10</td>
-                                        <td>Forum, Milan, Italy</td>
-                                        <td><a href="http://www.thescriptmusic.com/home">
-                                            <button type="button" class="btn btn-warning">Ticket</button></a></td>
-                                     </tr>
-                                     <tr>
-                                        <td>June 11</td>
-                                        <td>Padova, Palageox, Italy</td>
-                                        <td><a href="http://www.thescriptmusic.com/home">
-                                            <button type="button" class="btn btn-warning">Ticket</button></a></td>
-                                     </tr>
-                                     <tr>
-                                        <td>June 14</td>
-                                        <td>Westonbirt Arboretum, Tetbury, UK</td>
-                                        <td><a href="http://www.thescriptmusic.com/home">
-                                            <button type="button" class="btn btn-warning">Ticket</button></a></td>
-                                     </tr>
-                                     <tr>
-                                        <td>June 16</td>
-                                        <td>Pinkpop, Netheland</td>
-                                        <td><a href="http://www.thescriptmusic.com/home">
-                                            <button type="button" class="btn btn-warning">Ticket</button></a></td>
-                                     </tr>
-                                     <tr>
-                                        <td>June 21</td>
-                                        <td>Open Air Theatre, Scarborough, UK</td>
-                                        <td><a href="http://www.thescriptmusic.com/home">
-                                            <button type="button" class="btn btn-warning">Ticket</button></a></td>
-                                     </tr>
-                                     <tr>
-                                        <td>June 22</td>
-                                        <td>Isle of Wight Festival, Newport, UK</td>
-                                        <td><a href="http://www.thescriptmusic.com/home">
-                                            <button type="button" class="btn btn-warning">Ticket</button></a></td>
-                                     </tr>
-                                </table>      
-                            </table> 
+        <table style="width:100%">
+         <table class="table table-condensed">
+          <tr>
+           <th>Date</th>
+           <th>Place</th>
+           <th>Ticket</th>
+          </tr>
+          <tr>  
+           <td>June 7</td>
+           <td>Thetford forest, suffolk, UK</td>
+           <td><a href="http://www.thescriptmusic.com/home">
+           <button type="button" class="btn btn-warning">Ticket</button></a></td>
+          </tr>
+          <tr>
+           <td>June 9</td>
+           <td>Caribana Festival, Crans-Pres'-Celigny, Switzerland</td>
+           <td><a href="http://www.thescriptmusic.com/home">
+           <button type="button" class="btn btn-warning">Ticket</button></a></td>
+          </tr>
+          <tr>
+           <td>June 9</td>
+           <td>Caribana Festival, Crans-Pres'-Celigny, Switzerland</td>
+           <td><a href="http://www.thescriptmusic.com/home">
+           <button type="button" class="btn btn-warning">Ticket</button></a></td>
+          </tr>
+          <tr>
+           <td>June 10</td>
+           <td>Forum, Milan, Italy</td>
+           <td><a href="http://www.thescriptmusic.com/home">
+           <button type="button" class="btn btn-warning">Ticket</button></a></td>
+          </tr>
+          <tr>
+            <td>June 11</td>
+            <td>Padova, Palageox, Italy</td>
+            <td><a href="http://www.thescriptmusic.com/home">
+            <button type="button" class="btn btn-warning">Ticket</button></a></td>
+          </tr>                                                                                    
+           <tr>
+            <td>June 14</td>
+            <td>Westonbirt Arboretum, Tetbury, UK</td>
+            <td><a href="http://www.thescriptmusic.com/home">
+            <button type="button" class="btn btn-warning">Ticket</button></a></td>
+           </tr>                          
+           <tr>
+            <td>June 16</td>
+            <td>Pinkpop, Netheland</td>
+            <td><a href="http://www.thescriptmusic.com/home">
+            <button type="button" class="btn btn-warning">Ticket</button></a></td>
+           </tr>
+           <tr>
+            <td>June 21</td>
+            <td>Open Air Theatre, Scarborough, UK</td>
+            <td><a href="http://www.thescriptmusic.com/home">
+            <button type="button" class="btn btn-warning">Ticket</button></a></td>
+           </tr>
+           <tr>
+            <td>June 22</td>
+            <td>Isle of Wight Festival, Newport, UK</td>
+            <td><a href="http://www.thescriptmusic.com/home">
+            <button type="button" class="btn btn-warning">Ticket</button></a></td>
+           </tr>
+          </table>      
+         </table> 
                             
                             
 - CSS codes to set up the position, font-size, and color of the letter:
@@ -801,22 +801,22 @@ However, the content is still interesting for all the users.
     
 - HTML:
  
-                    <div class="row event-news-4">
-                        <div class="col-md-12 bg-news-section-2">
-                            <img src="https://s1.ticketm.net/img/tat/dam/a/91f/dc2396de-dfc4-47f6-bf9d-
-                                d11876c1691f_516261_CUSTOM.jpg" class="news-image-2"></img>
-                                <div class="news-list">
-                                    <a href="https://www.rte.ie/entertainment/music-reviews/2017/0901/901498-the-script-
-                                    freedom-child" target="_blank" class="news-freedom"/>News of Freedom Child album</a></p>
-                                    <a href="https://www.bbc.co.uk/programmes/p05pl98z" target="_blank" class="news-
-                                    freedom"/>The Script performed live on BBC Radio 2 Room</a></p>
-                                    <a href="https://twitter.com/thescript" target="_blank" class="news-freedom"/>News
-                                    of the Script on Twitter</a></p>
-                                    <a href="https://twitter.com/thescript/status/1002241934134530053" target="_blank" 
-                                    class="news-freedom"/>The Script Summer Tour</a></p>
-                            </div>
-                        </div>
-                    </div>
+       <div class="row event-news-4">
+        <div class="col-md-12 bg-news-section-2">
+         <img src="https://s1.ticketm.net/img/tat/dam/a/91f/dc2396de-dfc4-47f6-bf9d-11876c1691f_516261_CUSTOM.jpg"
+         class="news-image-2"></img>
+          <div class="news-list">
+           <a href="https://www.rte.ie/entertainment/music-reviews/2017/0901/901498-the-script-freedom-child" 
+           target="_blank" class="news-freedom"/>News of Freedom Child album</a></p>
+           <a href="https://www.bbc.co.uk/programmes/p05pl98z" target="_blank" class="news-freedom"/>
+           The Script performed live on BBC Radio 2 Room</a></p>
+           <a href="https://twitter.com/thescript" target="_blank" class="news-freedom"/>News of the Script on Twitter
+           </a></p>
+           <a href="https://twitter.com/thescript/status/1002241934134530053" target="_blank" 
+            class="news-freedom"/>The Script Summer Tour</a></p>
+          </div>
+         </div>
+        </div>
                     
  - CSS:
   
@@ -887,26 +887,25 @@ Irish band as The Script now.
 - HTML:
     
             <!--danny-->
-                <div class="row danny-content">
-                    <div class="col-xs-12 col-sm-12 col-md-12 about-content">
-                        <img src="https://i.pinimg.com/originals/94/9a/0f/949a0f52374c4921b060c11023f0bd36.jpg" 
-                        class="about-image"></img>
-                            <a href="https://en.wikipedia.org/wiki/Danny_O%27Donoghue" target="_blank" 
-                            class="donoghue-content"><h3>Danny O'Donoghue</h3></a>
-                                <p class="inline-block-about">Danny O'Donoghue is a Dubliner who was born in
-                                the family of whom father was a member of <span class="phase-line">The Dreams</span>
-                                Shay O'Donoghue, and mother Ailish O'Donoghue.
-                                Before he became a lead single in The Script, he used to form a band called 
-                                <span class="phase-line">Mytown</span> with his intimate friend, Mark Sheehan.  
-                                And they received the moderate success in their home country but later on; they 
-                                decided  to work as producers in Los Angeles for a few years and went back to Dublin
-                                where recruited Glen Power as a drummer.
-                                The Script was formed in 2001 and released the first album called <span class="phase-
-                                line">"The Script"</span>. The debut album had the significant success in Ireland and
-                                went on to the UK and America.
-                                Since 2008, the script has released next four albums which have been sold worldwide.</p> 
-                    </div>
-                </div>
+             <div class="row danny-content">
+              <div class="col-xs-12 col-sm-12 col-md-12 about-content">
+               <img src="https://i.pinimg.com/originals/94/9a/0f/949a0f52374c4921b060c11023f0bd36.jpg" 
+               class="about-image"></img>
+                <a href="https://en.wikipedia.org/wiki/Danny_O%27Donoghue" target="_blank" 
+                class="donoghue-content"><h3>Danny O'Donoghue</h3></a>
+                  <p class="inline-block-about">Danny O'Donoghue is a Dubliner who was born in
+                     the family of whom father was a member of <span class="phase-line">The Dreams</span>
+                     Shay O'Donoghue, and mother Ailish O'Donoghue.
+                     Before he became a lead single in The Script, he used to form a band called 
+                     <span class="phase-line">Mytown</span> with his intimate friend, Mark Sheehan.  
+                     And they received the moderate success in their home country but later on; they 
+                     decided  to work as producers in Los Angeles for a few years and went back to Dublin
+                     where recruited Glen Power as a drummer.The Script was formed in 2001 and released the first album
+                     called <span class="phase-line">"The Script"</span>. The debut album had the significant success in
+                     Ireland and went on to the UK and America. Since 2008, the script has released next four albums which
+                     have been sold worldwide.</p> 
+               </div>
+              </div>
                 
  - CSS:
     
@@ -943,21 +942,20 @@ Irish band as The Script now.
 - HTML:
                  
                  
-                <!--mark-->
-                    <div class="row mark-content">
-                    <div class="col-xs-12 col-sm-12 col-md12 about-content-2">
-                        <img src="http://images.gibson.com/Lifestyle/2013/mark-sheehan_1.jpg" class="about-image-2"></img>
-                            <a href="https://thescriptbible.wordpress.com/biography/mark-sheehan/" target="_blank"
-                            class="mark-content"><h3>Mark Sheehan</h3></a>
-                             <p class="inline-block-about">Mark Sheehan was born on 29 October 1981 in Mount Brown, Dublin. 
-                             His father named Marc Anthony Sheehan. Danny and  Mark have been friends since they were 12
-                             years old. 
-                             He and Danny used to play music as a boyband <span class="phase-line">MyTown</span>. Not only,
-                             Danny, that worked in Los Angeles, but Mark also went there. 
-                             When they moved back to Dublin, they formed <span class="phase-line">the Script</span> together. 
-                             After that he married Rina Sheehan, and he has three children named Cameron, Avery, and Lil.</p> 
-                    </div>         
-                </div>
+         <!--mark-->
+           <div class="row mark-content">
+             <div class="col-xs-12 col-sm-12 col-md12 about-content-2">
+               <img src="http://images.gibson.com/Lifestyle/2013/mark-sheehan_1.jpg" class="about-image-2"></img>
+                 <a href="https://thescriptbible.wordpress.com/biography/mark-sheehan/" target="_blank"
+                 class="mark-content"><h3>Mark Sheehan</h3></a>
+                  <p class="inline-block-about">Mark Sheehan was born on 29 October 1981 in Mount Brown, Dublin. 
+                    His father named Marc Anthony Sheehan. Danny and  Mark have been friends since they were 12
+                    years old. He and Danny used to play music as a boyband <span class="phase-line">MyTown</span>.
+                    Not only,Danny, that worked in Los Angeles, but Mark also went there. When they moved back to Dublin,
+                    they formed <span class="phase-line">the Script</span> together. After that he married Rina Sheehan, 
+                    and he has three children named Cameron, Avery, and Lil.</p> 
+              </div>         
+           </div>
                 
 - CSS:
         
@@ -984,21 +982,21 @@ Irish band as The Script now.
     
 - HTML:
     
-                <!--glen-->
-                <div class="row glen-content">
-                    <div class="col-xs-12 col-sm-12 col-md-12 about-content-3">
-                        <img src="https://www.famousbirthdays.com/headshots/glen-power-3.jpg" class="about-image-3"></img>
-                            <a href="https://thescriptbible.wordpress.com/biography/glen-power/" target="_blank" 
-                            class="glen-content"><h3>Glen Power</h3></a>
-                             <p class="inline-block-about">Glen Power is one of <span class="phase-line">the Script</span>
+             <!--glen-->
+               <div class="row glen-content">
+                   <div class="col-xs-12 col-sm-12 col-md-12 about-content-3">
+                      <img src="https://www.famousbirthdays.com/headshots/glen-power-3.jpg" class="about-image-3"></img>
+                         <a href="https://thescriptbible.wordpress.com/biography/glen-power/" target="_blank" 
+                         class="glen-content"><h3>Glen Power</h3></a>
+                           <p class="inline-block-about">Glen Power is one of <span class="phase-line">the Script</span>
                              members. He had started his career before he joined the Script. 
                              His father was a singer, however; the most inspired person that made him interested in
                              the music industry was his mother. 
                              He and his other band members have achieved many awards, such as <span class="phase-line">
                              the Best Album and Best Irish Band Award at the 2009 Meteor Ireland Music Awards</span>. 
                              He has married and has a son named Luke.</p> 
-                    </div>         
-                </div>
+                  </div>         
+              </div>
                 
  - CSS:
  
@@ -1574,14 +1572,21 @@ These codes are from other websites which have been used on css for this project
             margin-right: -50%;
             }
    
+For the rest I have written. As you can see on the html page, I still used some class names the same as shown on
+the materials. The reason is that it makes me remember what is all about, however; all the details inside I changed and 
+added new values and new codes to create something that was suitable for my site.  
 
-    For the rest I have written. As you can see on the html page, I still used some class names the same as shown on
-    the materials.
-The reason is that it makes me remember what is all about, however; all the details inside I changed and added new 
-values and new codes to create something that was suitable for my site.  
+# Testing 
 
+There were two ways of testing my website project:
+1. I asked my family and some of my friends to surf my website by using different devices such as mobile, labtop and tablet.
+2. I checked my website by using different browsers such as Google Chrome and Safari to make sure that my website can work 
+well on both Microsoft and Apple devices. 
   
 # Built with
+
+I used Cloud 9 to build my website. However, before I made the website with Cloud 9, I had used Adobe XD to design 
+my website project. 
 
 - [Cloud 9](https://www.aws.amazon.com/cloud9/?origin=c9io)
 - [Adobe XD](https://www.adobe.com/products/xd.html)
